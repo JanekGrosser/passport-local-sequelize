@@ -1,13 +1,13 @@
 {
-  "name": "passport-local-sequelize",
+  "name": "passport-local-sequelize-nodemailer",
   "version": "0.8.0",
-  "description": "Sequelize plugin that simplifies building username and password login with Passport",
+  "description": "Sequelize plugin that simplifies building username and password login with Passport - nodemailer mails added",
   "main": "lib/passport-local-sequelize.js",
-  "author": "Madhur Jain <mformadhur@gmail.com> (http://madhur.me/)",
+  "author": "Madhur Jain <mformadhur@gmail.com> (http://madhur.me/), Janek Grosser(nodemailer functionality addition)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/madhurjain/passport-local-sequelize.git"
+    "url": "https://github.com/JanekGrosser/passport-local-sequelize-nodemailer.git"
   },
   "scripts": {
     "test": "node_modules/jshint/bin/jshint lib/*.js test/*.js && node_modules/mocha/bin/mocha -R spec"
@@ -19,7 +19,8 @@
     "auth",
     "authentication",
     "mysql",
-    "login"
+    "login",
+    "nodemailer"
   ],
   "dependencies": {
     "passport-local": "~1.0.0",
